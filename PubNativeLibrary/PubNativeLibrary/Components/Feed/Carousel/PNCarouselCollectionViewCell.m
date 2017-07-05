@@ -64,6 +64,7 @@ CGFloat const kPNCarouselCollectionViewCellTimeToConfirm    = 1.0f;
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     CGFloat cornerRadius = 5;
     self.elapsedTime = 0;
     

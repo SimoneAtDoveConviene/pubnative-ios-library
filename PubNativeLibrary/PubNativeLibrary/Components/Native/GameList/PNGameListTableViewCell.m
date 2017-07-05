@@ -60,6 +60,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     self.cta_text.layer.cornerRadius = 5;
     
     // Rating stars
